@@ -1,0 +1,36 @@
+
+.timeline {
+    position: relative;
+    margin-top: 35px;
+}
+
+.timeline:after {
+    content: '';
+    position: absolute;
+    width: 4px;
+    top: 0;
+    background-color: #eaeaea;
+    bottom: 0;
+    left: -20px;
+}
+.timelinePoint {
+    height: 100px;
+    position: relative;
+}
+.timelinePoint:after {
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 20px;
+    background-color: #1b2796;
+    left: -26px;
+    top: 7px;
+    z-index: 10;
+}
+.content h3 {
+    font-size: 20px;
+}
+.content p {
+    font-size: 18px;
+}

@@ -1,0 +1,135 @@
+.contract{
+    background-image: url(../../Image/footer-bg-2.jpg);
+    background-image: cover;
+    background-repeat: no-repeat;
+    background-position: top, left;
+    height: 750px;
+    overflow-x: hidden;
+}
+.title p {
+    font-size: 25px;
+    color: #8c8c8c;
+    font-weight: 500;
+}
+.title h1 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #8c8c8c;
+}
+.InputFild {
+    margin-top: 110px;
+}
+.InputFild p {
+    font-size: 25px;
+}
+.InputFild h1 {
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 45px;
+}
+.inputCon {
+    padding: 5px 15px;
+    height: 55px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+textarea.form-control.inputMessege {
+    height: 150px;
+    padding: 15px 25px;
+    font-size: 20px;
+    margin-bottom:10px;
+}
+input.conBtn {
+    border: navajowhite;
+    background: #1b2796;
+    color: #fff;
+    padding: 8px 88px;
+    font-size: 25px;
+    border-radius: 5px;
+}
+
+
+
+    // Responsive
+    /* XL Device :1200px. */
+    @media (min-width: 1200px) and (max-width: 1500px) {
+
+
+    }
+    
+    /* LG Device :992px. */
+    @media (min-width: 992px) and (max-width: 1200px) {
+        .contract {
+            background-position: 42%,88%;
+        }
+        
+    }
+    
+     
+    /* MD Device :768px. */
+    @media (min-width: 768px) and (max-width: 991px) {
+        .contract {
+            background-position: 44% 169%;
+        }
+        .InputFild p {
+            font-size: 22px;
+        }
+        .InputFild h1 {
+            font-size: 40px;
+            margin-bottom: 30px;
+        }
+        // .inputCon {
+        //     padding: 5px 15px;
+        //     height: 55px;
+        //     font-size: 20px;
+        //     margin-bottom: 10px;
+        // }
+        textarea.form-control.inputMessege {
+            height: 102px;
+            margin-bottom:10px;
+        }
+        input.conBtn {
+            padding: 6px 61px;
+            font-size: 22px;
+        }
+    }
+    
+     
+    /* Extra small Device. */
+    @media (max-width: 767px) {
+    
+    }
+     
+    /* SM Small Device :550px. */
+    @media only screen and (min-width: 576px) and (max-width: 767px) {
+        .contract {
+            background-position: 51% , 50%;
+            height: 750px;
+        }
+       
+     
+    }
+
+     /* SM Small Device :320px. */
+     @media only screen and (min-width: 320px) and (max-width: 767px) {
+        .contract {
+            height: 650px;
+        }
+        textarea.form-control.inputMessege {
+            height: 110px;
+        }
+        input.conBtn {
+            padding: 6px 109px;
+            font-size: 25px;
+        }
+        .title {
+            text-align: center;
+        }
+        .InputFild p {
+            font-size: 20px;
+        }
+        .InputFild h1 {
+            font-size: 30px;
+        }
+    }
+    

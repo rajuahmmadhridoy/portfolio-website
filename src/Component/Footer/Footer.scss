@@ -1,0 +1,106 @@
+
+.contractInfo {
+    margin-top: 60px;
+}
+.info h4 {
+    color: #8c8c8c;
+    font-size: 21px;
+    font-weight: 600;
+    margin-bottom: 18px;
+}
+.info p {
+    font-size: 17px;
+    font-weight: 500;
+    color: #8c8c8c;
+}
+.logo h2 {
+    color: #1b2796;
+    margin-right: 35px;
+    font-size: 45px;
+}
+.socialLink ul li {
+    background-color: #f2f2f2;
+    margin-right: 10px;
+    border-radius: 60px;
+    height: 45px;
+    // text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 45px;
+    list-style: none;
+}
+.socialLink ul li a {
+    font-size: 25px;
+    padding: 10px 10px;
+}
+
+.socialLink {
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+.copyRight.mt-3 {
+    font-size: 16px;
+    color: #8c8e96;
+}
+
+
+
+    // Responsive
+    /* XL Device :1200px. */
+    @media (min-width: 1200px) and (max-width: 1500px) {
+
+
+    }
+    
+    /* LG Device :992px. */
+    @media (min-width: 992px) and (max-width: 1200px) {
+    
+    }
+    
+     
+    /* MD Device :768px. */
+    @media (min-width: 768px) and (max-width: 991px) {
+        .logo h2 {
+            margin-right: 25px;
+            font-size: 25px;
+        }
+        .info h4 {
+            font-size: 17px;
+            margin-bottom: 10px;
+        }
+        .info p {
+            font-size: 14px;
+            margin-bottom: 9px;
+        }
+        .socialLink ul li {
+            margin-right: 20px;
+            height: 40px;
+            width: 40px;
+        }
+        .socialLink ul li a {
+            font-size: 20px;
+        }
+        
+    }
+    
+     
+    /* Extra small Device. */
+    @media (max-width: 767px) {
+    
+    }
+     
+    /* SM Small Device :550px. */
+    @media only screen and (min-width: 576px) and (max-width: 767px) {
+     
+     
+    }
+    /* SM Small Device :320px. */
+    @media only screen and (min-width: 320px) and (max-width: 767px) {
+        
+        .logo h2 {
+            font-size: 35px;
+        }
+        
+     
+    }

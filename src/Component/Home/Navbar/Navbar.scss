@@ -1,0 +1,31 @@
+.fiedTop {
+    position: fixed;
+    z-index: 50;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    z-index: 500;
+}
+.navbar-brand {
+    color: #2c338d;
+    font-size: 34px;
+    font-weight: 700;
+}
+.navbar-nav li a {
+    color: #6f86ba;
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: 600;
+    padding: 22px 29px;
+}
+
+ /* SM Small Device :320px. */
+ @media only screen and (min-width: 320px) and (max-width: 767px) {
+        
+    .navbar-brand {
+        color: #2c338d;
+        font-size: 25px;
+        font-weight: 700;
+    }
+ 
+}

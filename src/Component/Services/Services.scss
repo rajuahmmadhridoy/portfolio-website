@@ -1,0 +1,86 @@
+.services{
+    // height: 500px;
+    background-color: #f4ffe8;
+    position: relative;
+    // min-height: 500px;
+}
+.services img {
+    width: 100%;
+}
+.servicesJVGIMG {
+    position: absolute;
+    bottom: 0;
+}
+.servicesInfo {
+    background: #fff;
+    height: 235px;
+    text-align: center;
+    padding: 32px;
+    box-shadow: 1px 1px 20px grey;
+    border-radius: 5px;
+    transition:  .5s;
+}
+.servicesInfo:hover {
+    background-color: #f4ffe8;
+    box-shadow: 1px 1px 10px gray;
+}
+.servicesInfo h1 {
+    color: #646464;
+    font-size: 35px;
+}
+.servicesInfo h2 {
+    font-size: 20px;
+    color: #646464;
+}
+.servicesInfo p {
+    font-size: 17px;
+    color: #646464;
+}
+.servicesTopInfo p {
+    font-size: 25px;
+    color: #232323;
+}
+.servicesTopInfo h2 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 45px;
+}
+
+    // Responsive
+    /* XL Device :1200px. */
+    @media (min-width: 1200px) and (max-width: 1500px) {
+        .servicesJVGIMG {
+           bottom: 0;
+        }
+
+    }
+    
+    /* LG Device :992px. */
+    @media (min-width: 992px) and (max-width: 1200px) {
+        .servicesJVGIMG {
+            bottom: 0;
+        }
+    }
+    
+     
+    /* MD Device :768px. */
+    @media (min-width: 768px) and (max-width: 991px) {
+    
+    }
+    
+     
+    /* Extra small Device. */
+    @media (max-width: 767px) {
+    
+    }
+     
+    /* SM Small Device :3200px. */
+    @media only screen and (min-width: 320px) and (max-width: 767px) {
+        .title p {
+            font-size: 16px;
+        }
+        .servicesTopInfo h2 {
+            font-size: 20px;
+        }
+     
+    }

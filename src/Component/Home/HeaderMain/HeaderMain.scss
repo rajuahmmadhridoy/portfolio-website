@@ -1,0 +1,266 @@
+// .headerMain{
+//     background-image: url(../../../Image/hero-bg-4.jpg);
+//     background-size: cover;
+//     position: relative;
+//     z-index: 10;
+//     opacity: 5;
+//     background-repeat: no-repeat;
+//     background-attachment: fixed;
+//     opacity: .8;
+//     margin-bottom: 100px;
+//     height: 100vh;
+// }
+
+.headerMain{
+    // position: absolute;
+}
+.header {
+    background-image: url(../../../Image/hero-bg-4.jpg);
+    background-size: cover;
+    position: relative;
+    // z-index: 10;
+    opacity: 5;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: .8;
+    margin-bottom: 50px;
+    height: 120vh;
+    // position: relative;
+    // top: 80px;
+}
+.header:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: blue;
+    opacity: 0.5;
+}
+.headerMainWrapper {
+    position: absolute;
+    top: 45%;
+    transform: translate(0, -50%);
+    text-align: left;
+    z-index: 200;
+}
+.headerMainInfo h3 {
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+p.wave {
+    font-size: 40px;
+}
+.headerMainInfo h2 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 1px #000;
+}
+.headerMainInfo p {
+    color: #fff;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+button.resumeBtn {
+    background: #fff;
+    color: #222;
+    padding: 12px 60px;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.socileLink{
+    z-index: 2000;
+}
+.socileLink ul{
+    padding-left: 0;
+}
+.socileLink ul li {
+    list-style: none;
+    float: left;
+    color: #222;
+    font-size: 22px;
+    margin-right: 20px;
+    background: #fff;
+    border-radius: 105;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 35px;
+    border: 1px solid #222;
+}
+.resume {
+    color: #fff;
+    padding: 10px 29px;
+    border-radius: 5px;
+    text-decoration: none;
+    border: 1px solid blue;
+}
+.svgBg img {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    right: 0;
+    bottom: 0%;
+    z-index: 100;
+}
+
+.wave {
+    animation-name: wave-animation;
+    /* Refers to the name of your @keyframes element below */
+    animation-duration: 2.1s;
+    /* Change to speed up or slow down */
+    animation-iteration-count: infinite;
+    /* Never stop waving 🙂 */
+    transform-origin: 70% 70%;
+    /* Pivot around the bottom-left palm */
+    display: inline-block;
+    }
+    @keyframes wave-animation {
+    0% {
+    transform: rotate(0deg);
+    }
+    10% {
+    transform: rotate(14deg);
+    }
+    /* The following five values can be played with to make the waving more or less extreme */
+    20% {
+    transform: rotate(-8deg);
+    }
+    30% {
+    transform: rotate(14deg);
+    }
+    40% {
+    transform: rotate(-4deg);
+    }
+    50% {
+    transform: rotate(10deg);
+    }
+    60% {
+    transform: rotate(0deg);
+    }
+    /* Reset for the last half to pause */
+    100% {
+    transform: rotate(0deg);
+    }
+    }
+
+
+
+    // Responsive
+    /* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .header {
+        background-position: 48% , 50%;
+        height: 120vh;
+        margin-bottom: 0;
+    }
+    .headerMainInfo h3 {
+        font-size: 38px;
+        margin-bottom: 0;
+        margin-top: 45px;
+    }
+    .headerMainInfo h2 {
+        font-size: 45px;
+        margin-bottom: 15px;
+    }
+    .socileLink ul li {
+        font-size: 25px;
+        margin-right: 20px;
+        width: 45px;
+        height: 45px;
+    }
+    
+}
+
+ 
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .header {
+        background-position: 48% , 50%;
+        height: 95vh;
+        margin-bottom: 0;
+    }
+    .headerMainInfo h3 {
+        font-size: 40px;
+        margin-top: 85px;
+    }
+    .headerMainInfo h2 {
+        font-size: 34px;
+        margin-bottom: 8px;
+    }
+    .headerMainInfo p {
+        font-size: 22px;
+        margin-bottom: 15px;
+    }
+    .socileLink ul li {
+        font-size: 20px;
+        width: 40px;
+        height: 40px;
+    }
+    .about .menu li a {
+        font-size: 12px;
+    }
+}
+
+ 
+/* Extra small Device. */
+@media (max-width: 767px) {
+
+}
+ 
+/* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+ 
+}
+/* SM Small Device :320px. */
+@media only screen and (min-width: 320px) and (max-width: 767px){
+    // .headerMain {
+    //     height: 10vh;
+        
+    // }
+    .header {
+        background-position: 48% , 50%;
+        height: 65vh;
+        margin-bottom: 0;
+    }
+    .headerMainInfo h3 {
+        font-size: 30px;
+        margin-top: 45px;
+    }
+    .headerMainInfo h2 {
+        font-size: 22px;
+        // margin-top: 5px;
+    }
+    .headerMainInfo p {
+        font-size: 16px;
+        // margin-top: 5px;
+        margin-bottom: 6px;
+    }
+    .socileLink ul li {
+        width: 30px;
+        height: 30px;
+        font-size: 15px;
+    }
+   
+    // .menu li a {
+    //     font-size: 15px;
+    // }
+   
+ 
+}

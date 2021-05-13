@@ -1,0 +1,100 @@
+.shortInfoList {
+    padding-left: 0;
+}
+.shortInfoList li {
+    list-style: none;
+}
+.shortInfoList > li .shortListTitle {
+    min-width: 100px;
+    font-size: 17px;
+    display: table-cell;
+    font-weight: 500;
+    color: #696969;
+    font-family: 'Montserrat', sans-serif;
+}
+.shortInfoList > li {
+    table-layout: fixed;
+    padding: 1px 0;
+    display: table;
+}
+
+div#shortInfo p {
+    color: #646464;
+    font-size: 17px;
+}
+
+element.style {
+}
+span.shortInfoList {
+    font-size: 16px;
+    color: #696969;
+    margin-left: 11px;
+}
+
+
+ // Responsive
+    /* XL Device :1200px. */
+    @media (min-width: 1200px) and (max-width: 1500px) {
+
+
+    }
+    
+    /* LG Device :992px. */
+    @media (min-width: 992px) and (max-width: 1200px) {
+        ul.menu {
+            margin-bottom: 0;
+        }
+        .title p {
+            font-size: 20px;
+        }
+        .text-center.title h3 {
+            font-size: 24px;
+            margin-bottom: 5px;
+        }
+       
+        div#shortInfo p {
+            font-size: 15px;
+        }
+        .shortInfoList > li .shortListTitle {
+            font-size: 15px;
+        }
+        span.shortInfoList {
+            font-size: 14px;
+        }
+    }
+    
+     
+    /* MD Device :768px. */
+    @media (min-width: 768px) and (max-width: 991px) {
+        div#shortInfo p {
+            font-size: 15px;
+        }
+        .shortInfoList > li .shortListTitle {
+            font-size: 14px;
+        }
+        span.shortInfoList {
+            font-size: 13px;
+        }
+    }
+    
+     
+    /* Extra small Device. */
+    @media (max-width: 767px) {
+    
+    }
+     
+    /* SM Small Device :550px. */
+    @media only screen and (min-width: 320px) and (max-width: 767px) {
+        
+        div#shortInfo p {
+            font-size: 15px;
+            padding-right: 50px;
+        }
+        .shortInfoList > li .shortListTitle {
+            font-size: 15px;
+        }
+        span.shortInfoList {
+            font-size: 13px;
+        }
+     
+    }
