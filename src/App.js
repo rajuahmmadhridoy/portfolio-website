@@ -22,7 +22,7 @@ function App() {
     }, 2000)
   }, [])
   return (
-    <div>
+    <div className="appCss">
       {
         loading ? (
           <div className="loder">

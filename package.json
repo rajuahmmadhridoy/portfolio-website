@@ -12,7 +12,7 @@
     "@testing-library/react": "^11.2.6",
     "@testing-library/user-event": "^12.8.3",
     "aos": "^2.3.4",
-    "node-sass": "^5.0.0",
+    "node-sass": "^6.0.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-hook-form": "^7.3.6",
@@ -22,6 +22,7 @@
     "react-scripts": "4.0.3",
     "react-spinners": "^0.10.6",
     "react-typical": "^0.1.3",
+    "sass-loader": "^12.1.0",
     "web-vitals": "^1.1.1"
   },
   "scripts": {
@@ -47,5 +48,18 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajuahmmadhridoy/portfolio-website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rajuahmmadhridoy/portfolio-website/issues"
+  },
+  "homepage": "https://github.com/rajuahmmadhridoy/portfolio-website#readme"
 }
